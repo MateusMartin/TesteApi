@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TesteApiUnitTest
+{
+    public class ProdutoNome
+    {
+
+        public static List<string> Nomes = new List<string>
+        {
+            "Arroz Integral", "Feijão Preto", "Óleo de Coco", "Açúcar Mascavo", "Café Premium",
+            "Sal Marinho", "Macarrão Integral", "Leite Desnatado", "Cerveja Artesanal", "Refrigerante Zero",
+            "Biscoito Integral", "Sabão de Coco", "Detergente Ecológico", "Shampoo Hidratante",
+            "Condicionador Reparador", "Sabonete de Argila", "Desodorante Natural", "Farinha de Aveia",
+            "Margarina com Sal", "Sorvete de Frutas", "Suco Detox", "Amaciante de Roupa", "Algodão Orgânico",
+            "Papel Higiênico Reciclado", "Pasta de Dente Fluorada", "Escova de Dente de Bambu",
+            "Água de Coco Natural", "Vinagre de Maçã", "Molho de Pimenta Caseiro", "Creme de Ricota",
+            "Sache de Chá Verde", "Azeite Extra Virgem", "Chocolate Amargo", "Fralda Ecológica",
+            "Pão Integral", "Presunto Defumado", "Queijo Minas", "Iogurte Grego"
+        };
+
+    }
+}
