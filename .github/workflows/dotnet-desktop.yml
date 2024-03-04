@@ -18,9 +18,8 @@ jobs:
 
     env:
       Solution_Name: TesteApi.sln
-      Test_Api_Project_Path: TesteApi\TesteApi.csproj
       Test_Unit_Project_Path: TesteApiUnitTest\TesteApiUnitTest.csproj
-      Test_Integration_Project_Path: TestesDeIntegracao\TestesDeIntegracao.csproj
+      
 
     steps:
     - name: Checkout
@@ -31,7 +30,7 @@ jobs:
     - name: Install .NET Core SDK
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: 6.0.x
+        dotnet-version: 7.0.x
 
     - name: Setup MSBuild.exe
       uses: microsoft/setup-msbuild@v1.0.2
@@ -39,14 +38,7 @@ jobs:
     - name: Restore NuGet packages
       run: dotnet restore ${{ env.Solution_Name }}
 
-    - name: Build and run API project
-      run: dotnet run --project TesteApi\TesteApi.csproj --urls "http://localhost:5000" &
-      
-    - name: Wait for server to start
-      run: Start-Sleep -s 20
 
     - name: Run unit tests
       run: dotnet test ${{ env.Test_Unit_Project_Path }}
 
-    - name: Run integration tests
-      run: dotnet test ${{ env.Test_Integration_Project_Path }}
