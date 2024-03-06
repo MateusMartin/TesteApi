@@ -57,7 +57,7 @@
   <h2>Como Usar</h2>
   <ol>
     <li>Clone o repositório para o seu ambiente de desenvolvimento.</li>
-    <li>Certifique-se de ter o .NET 6 SDK instalado em sua máquina.</li>
+    <li>Certifique-se de ter o .NET 7 SDK instalado em sua máquina.</li>
     <li>Abra o projeto no Visual Studio ou em seu editor de código preferido.</li>
     <li>Execute a aplicação. Isso criará automaticamente o banco de dados em memória e populará com 5 produtos ao iniciar a aplicação.</li>
     <li>Para executar os testes unitários, navegue até o projeto TesteApiUnitTest e execute os testes usando o Test Explorer ou a linha de comando.</li>
