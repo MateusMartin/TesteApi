@@ -61,6 +61,7 @@
     <li>Abra o projeto no Visual Studio ou em seu editor de código preferido.</li>
     <li>Execute a aplicação. Isso criará automaticamente o banco de dados em memória e populará com 5 produtos ao iniciar a aplicação.</li>
     <li>Para executar os testes unitários, navegue até o projeto TesteApiUnitTest e execute os testes usando o Test Explorer ou a linha de comando.</li>
+    <li>Para executar os testes de intregação publique a api em sua maquina depois configute a rota no contrutor da UniteTest1 do projeto de TestesDeIntregacao depois execute pelo Test Explorer</li>
   </ol>
 
    <h1>Agradecimento</h1>
