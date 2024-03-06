@@ -13,7 +13,7 @@
   <ul>
     <li>TesteApi: Projeto principal da aplicação ASP.NET Core que inclui a lógica de negócios e a API REST para manipulação de produtos.</li>
     <li>TesteApiUnitTest: Projeto de testes unitários que testa a lógica de negócios da aplicação.</li>
-    <li>TesteApiUnitTest: Projeto de testes Intregaçãoo que testa a lógica de negócios da Api REST</li>
+    <li>TesteDeIntregacao: Projeto de testes Intregaçãoo que testa a lógica de negócios da Api REST</li>
   </ul>
   <h2>Sobre o Code-First</h2>
   <p>O Entity Framework suporta duas abordagens principais para modelagem de dados: code-first e database-first. Optei por utilizar a abordagem code-first neste projeto devido à sua facilidade de manutenção, controle total e portabilidade.</p>
